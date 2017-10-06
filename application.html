@@ -1,26 +1,75 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>PSU Application Form</title>
   </head>
   <body>
-    <div align="center">
-      <h4>ใบสมัครคัดเลือกพนักงาน ม.อ.</h4>
-    </div>
-    <Form action="#" method="post">
-      <div align="center">
-        <label for="txtposition">ตำแหน่ง</label>
-        <label type="text" name="txtposition" />
-      </div>
-      <div>
-        <label for="txtorg">คณะหน่วยงานที่สมัคร</label>
-        <label type="text" name="txtorg" /><br />
+    <center><img src="123.png" alt=""width="100" ></center>
+    <center><h4>ใบสมัครคัดเลือกพนักงาน ม.อ.</h4></center>
+    <form action="#" method="post">
+        <center><label for="txtposition">ตำแหน่ง</label>
+        <input type="text" name="txtposition"value="" /></center>
+
+        <label for="org">คณะ/หน่วยงานที่สมัคร</label>
+        <input type="text" name="org"value="" />
+
         <label for="txtsalary">เงินเดือนที่ต้องการ</label>
-        <label type="text" name="txtsalary" />
-      </div>
-      <p>
-        Test for github
-    </Form>
+        <input type="text" name="txtsalary"value="" />
+
+        <label for="ลักษณะงาน">ลักษณะงาน</lebel>
+        <input type="radio" name="ลักษณะงาน" value="FT"/>Full Time
+        <input type="radio" name="ลักษณะงาน" value="PT"/>Part Time
+
+      <b><h4>1.  ข้อมูลทั่วไป:</h4></b>
+
+      <label for="เลขบัตรประชาชน">เลขบัตรประชาชน</lebel>
+      <input type="text" name="org"value="" /><br>
+
+      <label for="name">ชื่อ</label>
+      <input type="text" name="name"value="" />
+
+      <label for="นามสกุล">นามสกุล</label>
+      <input type="text" name="นามสกุล"value="" /><br>
+
+      <label for="sex">เพศ</label>
+      <input type="radio" name="sex"/> ชาย
+      <input type="radio" name="sex"/> หญิง<br>
+
+      <label for="date">วัน/เดือน/ปี</label>
+      <input type="text" name="date" />
+
+      <label for="old">อายุ</label>
+      <input type="text" name="old" /> ปี
+
+      <b><h4>2.ภาษาอังกฤษ</h4></b>
+
+      <label for="sp">พูด</label>
+      <input type="radio" name="sp" value="3"/> ดีมาก
+      <input type="radio" name="sp" value="2"/> ดี
+      <input type="radio" name="sp" value="1"/> พอใช้ </br>
+
+      <label for="read">อ่าน</label>
+      <input type="radio" name="read" value="3"/> ดีมาก
+      <input type="radio" name="read" value="2"/> ดี
+      <input type="radio" name="read" value="1"/> พอใช้ </br>
+
+      <label for="w">เขียน</label>
+      <input type="radio" name="w" value="3"/> ดีมาก
+      <input type="radio" name="w" value="2"/> ดี
+      <input type="radio" name="w" value="1"/> พอใช้
+
+      <b><h4>3.ทักษะพิเศษ</h4></b>
+      <label for="skill"></label>
+      <input type="text" name="skill"/></br>
+
+      <b><h4>4.ผลงานทางวิชาการ</h4></b>
+      <label for="sucess"></label>
+      <input type="text" name="sucess"/></br>
+
+      <b><h4>5.ประสบการณ์การทำงาน</h4></b>
+      <label for="anoter"></label>
+      <input type="text" name="anoter"/><br><br>
+      <input type="submit" value="ส่ง"/>
+    </form>
   </body>
 </html>
